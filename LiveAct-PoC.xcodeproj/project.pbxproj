@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89F3129529F647B400A71F5E /* LiveAct_PoCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3129429F647B400A71F5E /* LiveAct_PoCApp.swift */; };
+		89F3129729F647B400A71F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3129629F647B400A71F5E /* ContentView.swift */; };
+		89F3129929F647B600A71F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F3129829F647B600A71F5E /* Assets.xcassets */; };
+		89F3129C29F647B600A71F5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F3129B29F647B600A71F5E /* Preview Assets.xcassets */; };
+		89F312AD29F64E1900A71F5E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F312AC29F64E1900A71F5E /* WidgetKit.framework */; };
+		89F312AF29F64E1900A71F5E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F312AE29F64E1900A71F5E /* SwiftUI.framework */; };
+		89F312B229F64E1900A71F5E /* LiveActivtiesBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312B129F64E1900A71F5E /* LiveActivtiesBundle.swift */; };
+		89F312B429F64E1900A71F5E /* LiveActivtiesLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312B329F64E1900A71F5E /* LiveActivtiesLiveActivity.swift */; };
+		89F312B629F64E1900A71F5E /* LiveActivties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312B529F64E1900A71F5E /* LiveActivties.swift */; };
+		89F312B829F64E1B00A71F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F312B729F64E1B00A71F5E /* Assets.xcassets */; };
+		89F312BC29F64E1B00A71F5E /* LiveActivtiesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 89F312AA29F64E1900A71F5E /* LiveActivtiesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89F312C229F6514F00A71F5E /* PizzaDeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C129F6514F00A71F5E /* PizzaDeliveryAttributes.swift */; };
+		89F312C329F6514F00A71F5E /* PizzaDeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C129F6514F00A71F5E /* PizzaDeliveryAttributes.swift */; };
+		89F312C529F6516900A71F5E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C429F6516900A71F5E /* NotificationManager.swift */; };
+		89F312C729F6517D00A71F5E /* NotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C629F6517D00A71F5E /* NotificationApp.swift */; };
+		89F312C929F6519200A71F5E /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C829F6519200A71F5E /* NotificationHandler.swift */; };
+		89F312CB29F651A500A71F5E /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312CA29F651A500A71F5E /* Functions.swift */; };
+		89F3131729F683D900A71F5E /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312CA29F651A500A71F5E /* Functions.swift */; };
+		89F3131829F683E000A71F5E /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F312C829F6519200A71F5E /* NotificationHandler.swift */; };
+		89F3131929F683E800A71F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3129629F647B400A71F5E /* ContentView.swift */; };
+		89F3131A29F683EE00A71F5E /* LiveAct_PoCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3129429F647B400A71F5E /* LiveAct_PoCApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89F312BA29F64E1B00A71F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89F3128929F647B400A71F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F312A929F64E1900A71F5E;
+			remoteInfo = LiveActivtiesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89F312C029F64E1B00A71F5E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				89F312BC29F64E1B00A71F5E /* LiveActivtiesExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89F3129129F647B400A71F5E /* LiveAct-PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiveAct-PoC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F3129429F647B400A71F5E /* LiveAct_PoCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAct_PoCApp.swift; sourceTree = "<group>"; };
+		89F3129629F647B400A71F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89F3129829F647B600A71F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89F3129B29F647B600A71F5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89F312A429F64DD500A71F5E /* LiveAct-PoC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LiveAct-PoC.entitlements"; sourceTree = "<group>"; };
+		89F312A529F64DDE00A71F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89F312AA29F64E1900A71F5E /* LiveActivtiesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveActivtiesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F312AC29F64E1900A71F5E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		89F312AE29F64E1900A71F5E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		89F312B129F64E1900A71F5E /* LiveActivtiesBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivtiesBundle.swift; sourceTree = "<group>"; };
+		89F312B329F64E1900A71F5E /* LiveActivtiesLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivtiesLiveActivity.swift; sourceTree = "<group>"; };
+		89F312B529F64E1900A71F5E /* LiveActivties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivties.swift; sourceTree = "<group>"; };
+		89F312B729F64E1B00A71F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89F312B929F64E1B00A71F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F312C129F6514F00A71F5E /* PizzaDeliveryAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryAttributes.swift; sourceTree = "<group>"; };
+		89F312C429F6516900A71F5E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		89F312C629F6517D00A71F5E /* NotificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationApp.swift; sourceTree = "<group>"; };
+		89F312C829F6519200A71F5E /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		89F312CA29F651A500A71F5E /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F3128E29F647B400A71F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F312A729F64E1900A71F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F312AF29F64E1900A71F5E /* SwiftUI.framework in Frameworks */,
+				89F312AD29F64E1900A71F5E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89F3128829F647B400A71F5E = {
+			isa = PBXGroup;
+			children = (
+				89F3129329F647B400A71F5E /* LiveAct-PoC */,
+				89F312B029F64E1900A71F5E /* LiveActivties */,
+				89F312AB29F64E1900A71F5E /* Frameworks */,
+				89F3129229F647B400A71F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89F3129229F647B400A71F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F3129129F647B400A71F5E /* LiveAct-PoC.app */,
+				89F312AA29F64E1900A71F5E /* LiveActivtiesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F3129329F647B400A71F5E /* LiveAct-PoC */ = {
+			isa = PBXGroup;
+			children = (
+				89F312A529F64DDE00A71F5E /* Info.plist */,
+				89F312A429F64DD500A71F5E /* LiveAct-PoC.entitlements */,
+				89F3129429F647B400A71F5E /* LiveAct_PoCApp.swift */,
+				89F3129629F647B400A71F5E /* ContentView.swift */,
+				89F312C129F6514F00A71F5E /* PizzaDeliveryAttributes.swift */,
+				89F312C429F6516900A71F5E /* NotificationManager.swift */,
+				89F312C629F6517D00A71F5E /* NotificationApp.swift */,
+				89F312C829F6519200A71F5E /* NotificationHandler.swift */,
+				89F312CA29F651A500A71F5E /* Functions.swift */,
+				89F3129829F647B600A71F5E /* Assets.xcassets */,
+				89F3129A29F647B600A71F5E /* Preview Content */,
+			);
+			path = "LiveAct-PoC";
+			sourceTree = "<group>";
+		};
+		89F3129A29F647B600A71F5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89F3129B29F647B600A71F5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89F312AB29F64E1900A71F5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F312AC29F64E1900A71F5E /* WidgetKit.framework */,
+				89F312AE29F64E1900A71F5E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F312B029F64E1900A71F5E /* LiveActivties */ = {
+			isa = PBXGroup;
+			children = (
+				89F312B129F64E1900A71F5E /* LiveActivtiesBundle.swift */,
+				89F312B329F64E1900A71F5E /* LiveActivtiesLiveActivity.swift */,
+				89F312B529F64E1900A71F5E /* LiveActivties.swift */,
+				89F312B729F64E1B00A71F5E /* Assets.xcassets */,
+				89F312B929F64E1B00A71F5E /* Info.plist */,
+			);
+			path = LiveActivties;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89F3129029F647B400A71F5E /* LiveAct-PoC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F3129F29F647B600A71F5E /* Build configuration list for PBXNativeTarget "LiveAct-PoC" */;
+			buildPhases = (
+				89F3128D29F647B400A71F5E /* Sources */,
+				89F3128E29F647B400A71F5E /* Frameworks */,
+				89F3128F29F647B400A71F5E /* Resources */,
+				89F312C029F64E1B00A71F5E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F312BB29F64E1B00A71F5E /* PBXTargetDependency */,
+			);
+			name = "LiveAct-PoC";
+			productName = "LiveAct-PoC";
+			productReference = 89F3129129F647B400A71F5E /* LiveAct-PoC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89F312A929F64E1900A71F5E /* LiveActivtiesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F312BD29F64E1B00A71F5E /* Build configuration list for PBXNativeTarget "LiveActivtiesExtension" */;
+			buildPhases = (
+				89F312A629F64E1900A71F5E /* Sources */,
+				89F312A729F64E1900A71F5E /* Frameworks */,
+				89F312A829F64E1900A71F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveActivtiesExtension;
+			productName = LiveActivtiesExtension;
+			productReference = 89F312AA29F64E1900A71F5E /* LiveActivtiesExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F3128929F647B400A71F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					89F3129029F647B400A71F5E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					89F312A929F64E1900A71F5E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 89F3128C29F647B400A71F5E /* Build configuration list for PBXProject "LiveAct-PoC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89F3128829F647B400A71F5E;
+			productRefGroup = 89F3129229F647B400A71F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F3129029F647B400A71F5E /* LiveAct-PoC */,
+				89F312A929F64E1900A71F5E /* LiveActivtiesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F3128F29F647B400A71F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F3129C29F647B600A71F5E /* Preview Assets.xcassets in Resources */,
+				89F3129929F647B600A71F5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F312A829F64E1900A71F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F312B829F64E1B00A71F5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F3128D29F647B400A71F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F312C229F6514F00A71F5E /* PizzaDeliveryAttributes.swift in Sources */,
+				89F312C929F6519200A71F5E /* NotificationHandler.swift in Sources */,
+				89F3129729F647B400A71F5E /* ContentView.swift in Sources */,
+				89F312CB29F651A500A71F5E /* Functions.swift in Sources */,
+				89F312C529F6516900A71F5E /* NotificationManager.swift in Sources */,
+				89F3129529F647B400A71F5E /* LiveAct_PoCApp.swift in Sources */,
+				89F312C729F6517D00A71F5E /* NotificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F312A629F64E1900A71F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F312B229F64E1900A71F5E /* LiveActivtiesBundle.swift in Sources */,
+				89F3131A29F683EE00A71F5E /* LiveAct_PoCApp.swift in Sources */,
+				89F3131829F683E000A71F5E /* NotificationHandler.swift in Sources */,
+				89F3131929F683E800A71F5E /* ContentView.swift in Sources */,
+				89F312C329F6514F00A71F5E /* PizzaDeliveryAttributes.swift in Sources */,
+				89F312B629F64E1900A71F5E /* LiveActivties.swift in Sources */,
+				89F3131729F683D900A71F5E /* Functions.swift in Sources */,
+				89F312B429F64E1900A71F5E /* LiveActivtiesLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89F312BB29F64E1B00A71F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89F312A929F64E1900A71F5E /* LiveActivtiesExtension */;
+			targetProxy = 89F312BA29F64E1B00A71F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89F3129D29F647B600A71F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89F3129E29F647B600A71F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89F312A029F647B600A71F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LiveAct-PoC/LiveAct-PoC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveAct-PoC/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C42LT37LT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveAct-PoC/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appice.ios.LiveAct-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89F312A129F647B600A71F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LiveAct-PoC/LiveAct-PoC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveAct-PoC/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C42LT37LT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LiveAct-PoC/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appice.ios.LiveAct-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89F312BE29F64E1B00A71F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C42LT37LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveActivties/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivties;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appice.ios.LiveAct-PoC.LiveActivties";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89F312BF29F64E1B00A71F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7C42LT37LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveActivties/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivties;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appice.ios.LiveAct-PoC.LiveActivties";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F3128C29F647B400A71F5E /* Build configuration list for PBXProject "LiveAct-PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F3129D29F647B600A71F5E /* Debug */,
+				89F3129E29F647B600A71F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F3129F29F647B600A71F5E /* Build configuration list for PBXNativeTarget "LiveAct-PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F312A029F647B600A71F5E /* Debug */,
+				89F312A129F647B600A71F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F312BD29F64E1B00A71F5E /* Build configuration list for PBXNativeTarget "LiveActivtiesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F312BE29F64E1B00A71F5E /* Debug */,
+				89F312BF29F64E1B00A71F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F3128929F647B400A71F5E /* Project object */;
+}
